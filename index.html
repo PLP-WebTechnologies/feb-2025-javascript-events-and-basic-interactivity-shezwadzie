@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Interactive Web Features</h1>
+
+    <!-- Button Click Event -->
+    <button id="myButton">Click me</button>
+
+    <!-- Hover Effect -->
+    <button id="hoverButton">Hover over me</button>
+
+    <!-- Keypress Detection -->
+    <p>Press any key to see an alert.</p>
+
+    <!-- Secret Action (Double-click) -->
+    <button id="secretButton">Double-click me</button>
+
+    <!-- Image Gallery -->
+    <div id="gallery">
+      <img id="galleryImage" src="pink dress.jpg" alt="Gallery Image">
+      <button id="prevBtn">Prev</button>
+      <button id="nextBtn">Next</button>
+    </div>
+
+    <!-- Tabs -->
+    <div id="tabs">
+      <button id="tab1">Tab 1</button>
+      <button id="tab2">Tab 2</button>
+      <div id="content1" class="tab-content">This is Tab 1 content.</div>
+      <div id="content2" class="tab-content" style="display:none;">This is Tab 2 content.</div>
+    </div>
+
+    <!-- Form with Validation -->
+    <form id="myForm">
+      <label for="emailField">Email: </label>
+      <input type="email" id="emailField" required>
+      <br>
+      <label for="passwordField">Password: </label>
+      <input type="password" id="passwordField" required>
+      <span id="passwordFeedback"></span>
+      <br>
+      <button type="button" id="submitButton">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
